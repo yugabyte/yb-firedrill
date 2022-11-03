@@ -38,4 +38,4 @@ Just clone this repository and start using.
 
 #### Feedback and issues
 
-If you have any feedback or facing any issues, You can reach us out at #firedrill slack channel.
+If you have any feedback or facing any issues, You can reach us out at `#firedrill` slack channel.
