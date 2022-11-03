@@ -8,7 +8,7 @@ Just clone this repository and start using.
 
 #### Config file
 
-- Update the config file as per your environment, and keep under location `/home/yugabyte/firedrill/config.txt`
+- Update the config file as per your environment and keep it in your current working directory.
 - Sample config file:
 
         [global]
