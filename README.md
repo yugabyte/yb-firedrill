@@ -4,7 +4,7 @@
 
 ### Installation
 
-Just clone this repository and start using.
+Just download latest appropriate binary from releases
 
 #### Config file
 
