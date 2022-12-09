@@ -35,6 +35,7 @@ Just download latest appropriate binary from releases
 #### Requirements
 
 - 3 Node universe with `systemd-enabled`
+- config file name should be config.ini
 
 #### Feedback and issues
 
