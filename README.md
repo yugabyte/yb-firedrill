@@ -4,7 +4,13 @@
 
 ### Installation
 
-Just download latest appropriate binary from releases
+- Just clone this repo and give execute permissions to `yb-firedrill` binary
+
+```
+git clone https://github.com/yugabyte/yb-firedrill.git
+cd yb-firedrill/
+chmod +x yb-firedrill
+```
 
 #### Config file
 
@@ -34,9 +40,12 @@ Just download latest appropriate binary from releases
 
 #### Requirements
 
+- System with below configuration
+    - Debian GNU/Linux, 11 (bullseye)
+    - Architecture x86/64
 - User `yugabyte` with sudo privileges.
 - 3 Node universe with `systemd-enabled`
-- config file name should be config.ini
+- config file name should be `config.ini`
 
 #### Feedback and issues
 
