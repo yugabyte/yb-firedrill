@@ -2,6 +2,16 @@
 
 ## Let's break and learn
 
+### Requirements
+
+- [Certified Image](https://console.cloud.google.com/compute/imagesDetail/projects/debian-cloud/global/images/debian-11-bullseye-v202212060)
+    - Debian GNU/Linux, 11 (bullseye) - v20221206
+    - Architecture x86/64
+    - Family debian-11
+- User `yugabyte` with sudo privileges.
+- 3 Node universe with `systemd-enabled`
+- config file name should be `config.ini`
+
 ### Installation
 
 - Just clone this repo and give execute permissions to `yb-firedrill` binary
@@ -38,14 +48,6 @@ chmod +x yb-firedrill
           --type TYPE          Run a specific type of exercise
           --list-types         List the types of exercises
 
-#### Requirements
-
-- System with below configuration
-    - Debian GNU/Linux, 11 (bullseye)
-    - Architecture x86/64
-- User `yugabyte` with sudo privileges.
-- 3 Node universe with `systemd-enabled`
-- config file name should be `config.ini`
 
 #### Feedback and issues
 
