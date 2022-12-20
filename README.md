@@ -4,13 +4,13 @@
 
 ### Requirements
 
-- [Certified Image](https://console.cloud.google.com/compute/imagesDetail/projects/debian-cloud/global/images/debian-11-bullseye-v202212060)
+- Yugabyte Anywhere instance running on [Certified Image](https://console.cloud.google.com/compute/imagesDetail/projects/debian-cloud/global/images/debian-11-bullseye-v202212060)
     - Debian GNU/Linux, 11 (bullseye) - v20221206
     - Architecture x86/64
     - Family debian-11
 - User `yugabyte` with sudo privileges.
 - 3 Node universe with `systemd-enabled`
-- config file name should be `config.ini`
+- config file name should be `config.ini` and in a working directory.
 
 ### Installation
 
