@@ -4,6 +4,7 @@
 
 ### Requirements
 
+- Yugabyte Version 2.16 +
 - Yugabyte Anywhere instance running on [Certified Image](https://console.cloud.google.com/compute/imagesDetail/projects/debian-cloud/global/images/debian-11-bullseye-v202212060)
     - Debian GNU/Linux, 11 (bullseye) - v20221206
     - Architecture x86/64
@@ -37,6 +38,7 @@ chmod +x yb-firedrill
         master_bin_path = /home/yugabyte/master/bin/
         tserver_bin_path = /home/yugabyte/tserver/bin/
         postgres_bin_path = /home/yugabyte/tserver/postgres/bin/
+        pg_password = <password>
 
 #### Usage
 
