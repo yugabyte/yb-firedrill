@@ -39,6 +39,7 @@ chmod +x yb-firedrill
         tserver_bin_path = /home/yugabyte/tserver/bin/
         postgres_bin_path = /home/yugabyte/tserver/postgres/bin/
         pg_password = <password>
+        systemd_enabled = <boolean_value>
 
 #### Usage
 
