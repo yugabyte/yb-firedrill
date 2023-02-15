@@ -51,6 +51,9 @@ chmod +x yb-firedrill
           --type TYPE          Run a specific type of exercise
           --list-types         List the types of exercises
 
+#### Running firedrill
+
+        sudo ./firedrill
 
 #### Feedback and issues
 
